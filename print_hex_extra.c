@@ -14,7 +14,7 @@ int print_hex_extra(unsigned long int num)
 
 	while (num / 16 != 0)
 	{
-		num /= 16;
+		num = num / 16;
 		counter++;
 	}
 	counter++;
