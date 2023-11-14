@@ -5,9 +5,8 @@
 /**
  * main - Entry point
  *
- * Return: Zero
+ * Return: Always 0
  */
-
 int main(void)
 {
     int len;
