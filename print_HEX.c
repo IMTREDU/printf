@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_HEX - prints an hexgecimal number.
- * @val: arguments.
- * Return: counter.
+ * print_HEX - prints an hex number
+ * @val: arguments
+ * Return: counter
  */
 
 int print_HEX(va_list val)
