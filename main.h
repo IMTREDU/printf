@@ -43,6 +43,9 @@ int print_string(va_list val);
 int _putchar(char c);
 int _printf(const char *format, ...);
 int get_flags(const char *format, int *i);
+int get_precision(const char *format, int *i, va_list list);
+int get_size(const char *format, int *i);
+int is_digit(char);
 
 /* FLAGS */
 #define F_MINUS 1
@@ -51,5 +54,8 @@ int get_flags(const char *format, int *i);
 #define F_HASH 8
 #define F_SPACE 16
 
+/* SIZES */
+#define S_LONG 2
+#define S_SHORT 1
 
 #endif
