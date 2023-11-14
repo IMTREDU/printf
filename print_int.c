@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_i - prints integer
+ * print_i - prints int
  * @args: argument to print
- * Return: integer
+ * Return: int
  */
 
 int print_i(va_list args)

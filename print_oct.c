@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_oct - prints an octal number.
- * @val: arguments.
- * Return: counter.
+ * print_oct - prints an octal num
+ * @val: arguments
+ * Return: counter
  */
 
 int print_oct(va_list val)
