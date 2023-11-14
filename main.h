@@ -6,6 +6,7 @@
 #include <unistd.h>
 #include <limits.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 int _putchar(char c);
 int print_char(va_list val);

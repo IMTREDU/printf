@@ -7,6 +7,7 @@
  * @val: arguments
  * Return: number of characters printed (always 1)
  */
+
 int print_char(va_list val)
 {
 	char s;
