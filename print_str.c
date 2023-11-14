@@ -18,7 +18,7 @@ int _strlen(char *str)
 
 /**
  * _strlenc - finds length of a string but for constant characters
- * @str: string
+ * @str: char pointer
  * Return: i
  */
 

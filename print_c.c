@@ -6,6 +6,7 @@
  * @val: arguments.
  * Return: integer.
  */
+
 int print_c(va_list val)
 {
 	char str;
